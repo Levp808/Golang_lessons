@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Node struct {
 	Val  int
@@ -117,11 +119,4 @@ func main() {
 	l.DeleteFrom(3)
 	l.UpdateAt(0, 2311)
 	l.PrintArr()
-	/*l.Pop()
-
-	l.DeleteFrom(2)
-	l.Size()
-
-	l.UpdateAt(3, -12)
-	*/
 }
