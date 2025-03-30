@@ -2,7 +2,7 @@
 
 ## Description
 
-My first project on Go - simple linked list
+My first Go project - simple linked list
 
 ## Example
 
